@@ -1,0 +1,214 @@
+
+#include <iostream>
+#include <string>
+#include <stdlib.h>
+
+
+using namespace std;
+
+int main()
+{
+	cout << "*********SAVING DUMBLRDOOR*********" << endl;
+for (;;)
+	{
+
+		/*these are the pointing system*/
+		int Life = 1, Damage = 5;
+
+
+		//intro
+
+
+		cout << "Welcome to the world of magic! You must be sent by Harry Potah! What is your name warrior? " << endl;
+		string YourName;
+		cin >> YourName;
+
+
+		cout << " Is it real, is it real like Nesfruta Dalandan? " << endl;
+		cout << YourName << "? " << " Yes or No" << endl;
+		string NameTrue;
+		cin >> NameTrue;
+
+		if (NameTrue == "Not")
+			continue;
+
+		cout << " Now, wrap up your self " << YourName << " for your adventure ahead!" << endl;
+
+		cin.get();
+		cin.get();
+
+		cout << "  Baldemore  has  kidnapped  Dumbeldoor." << YourName << " since you're chosen by Harry Potah you will go to save him if you failed....It's friendship  over with Harry Potah!" << endl;
+
+                cin.get();
+
+
+
+		cout << " In order to save Dumbledoor you have to face the challenge made before you. You have to answer all the question that has been prepared by Baldemore the kidnapper. " << endl;
+
+
+		cout << "You are not a cat to have 9 lives, so you have only 1 life to spare" << endl;
+
+		cout << " You have pass the test if you want to succeed. Good luck " << YourName << endl;
+
+		cout << "And now, prepare! " << YourName << " Here are the challenges: " << endl;
+
+		//questions and functions
+
+		string Answer = " 20 ";
+		string Response;
+		cout << "1. 10 divided by 1/2???  " << endl;
+		cin >> Response;
+		if (Response == " 20 " ){
+
+			cout << " Magnificent. Ayos!" << endl;}
+
+
+		else
+		{
+			cout << " You failed warrior..Study hard first.. " << endl;
+			cout << " Life(1) " << " - " << " Damage(5) " << " = " << Life - Damage << endl;
+			string Die = "Yes";
+			string DieAnswer;
+			cout << " Do you want to answer again?" << endl;
+			cin >> DieAnswer;
+			if (DieAnswer == Die){
+
+				continue;}
+
+			else
+			{
+				cout << " Mission Failed.You only have one life..remember??" << endl;
+				break;
+			}
+
+
+		}
+
+
+
+
+		string Answer1 = " 1 ";
+		string Response1;
+		cout << "2. 1+2-3*4/6 is euals to??" << endl;
+		cin >> Response1;
+		if (Response1 == Answer1){
+
+			cout << " Magnificent. Ayos! nice two.." << endl;}
+
+		else
+		{
+			cout << "You failed warrior...it must be a luck in first!!!Whahahaha!!..." << endl;
+			cout << " Life(1) " << " - " << " Damage(5) " << " = " << Life - Damage << endl;
+			string Die = "Yes";
+			string DieAnswer;
+			cout << "Do you want to answer again?  " << endl;
+			cin >> DieAnswer;
+			if (DieAnswer == Die){
+
+				continue;
+}
+			else
+			{
+				cout << "Friendship over with Harry Potah." << endl;
+				break;
+			}
+
+
+		}
+
+
+
+		string Answer2 = "What";
+		string Response2;
+		cout << "3. In the middle of the sea, there is a boat.. What is the name of the captain?" << endl;
+		cin >> Response2;
+		if (Response2 == Answer2){
+
+			cout << "Magnificent. Ayos, your almost there.." << endl;
+	}
+		else
+		{
+			cout << "You want a summer class?" << endl;
+			cout << " Life(1) " << " - " << " Damage(5) " << " = " << Life - Damage << endl;
+			string Die = "Yes";
+			string DieAnswer;
+			cout << " Do you want to answer again?   " << endl;
+			cin >> DieAnswer;
+			if (DieAnswer == Die){
+
+				continue;
+}
+			else
+			{
+				cout << "Friendship over with Harry Potah." << endl;
+				break;
+			}
+
+		}
+
+      string Answer3 = "67";
+			string Response3;
+			cout << "4. when i was 6,  my brother is half of my age..Now I'm 70, how old is my brother." << endl;
+			cin >> Response3;
+			if (Response3 == Answer3){
+            cout << "Magnificent. Ayos...last one warrior.."<<endl;
+		}
+
+			else
+			{
+				cout << "You want a summer class? " << endl;
+				cout << " Life(1) " << " - " << " Damage(5) " << " = " << Life - Damage << endl;
+				string Die = "Yes";
+				string DieAnswer;
+				cout << " Do you want to answer again? " << endl;
+				cin >> DieAnswer;
+				if (DieAnswer == Die){
+
+					continue;
+}
+				else
+				{
+					cout << " Mission failed.You only have one life..remember??" << endl;
+					break;
+				}
+
+    }
+
+      string Answer4 = "2 pesos";
+			string Response4;
+			cout << "5. i have 15 pesos in my pocket,  i bought pencil worth 8 pesos, how much is my change?" << endl;
+			cin >> Response4;
+			if (Response4 == Answer4)
+			{
+
+				cout << " Magnificent. Ayos..you accomplised the test.." << endl;
+				cout << "Hey warrior! " << YourName << " ,you have save Dumbledoor..Great job!!" << endl;
+   				break;
+
+
+			}
+
+			else
+			{
+				cout << "You want a summer class? " << endl;
+				cout << " Life(1) " << " - " << " Damage(5) " << " = " << Life - Damage << endl;
+				string Die = "Yes";
+				string DieAnswer;
+				cout << " Do you want to answer again? " << endl;
+				cin >> DieAnswer;
+				if (DieAnswer == Die){
+
+					 continue;
+        }
+
+ 			else
+				{
+					cout << " Friendship over with Harry Potah." << endl;
+				}
+
+
+
+			}}
+			return 0;
+}
+
